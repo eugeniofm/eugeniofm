@@ -7,8 +7,8 @@
 
 appearance:
   theme_day: Ocean
-  theme_night: minimal
-  font: minimal
+  theme_night: Minimal
+  font: Minimal
   font_size: L
 
 # SEO
@@ -43,9 +43,9 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Eugenio Frias Miranda.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
