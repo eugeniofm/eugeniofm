@@ -90,7 +90,7 @@ email: 'efrias@purdue.edu'
 highlight_name: true
 ---
 
-I am a PhD candidate in Mechanical Engineering at Purdue University. I work in Laura Blumenschein's [RAAD Lab](https://lhblumen.wixsite.com/website-1) and am currently funded by a Graduate Research Assistanceship. 
+I am a PhD student in Mechanical Engineering at Purdue University. I work in Laura Blumenschein's [RAAD Lab](https://lhblumen.wixsite.com/website-1) and am currently funded by a Graduate Research Assistanceship. 
 My research focus is soft robotics. Currently I am working on developing a self sensing obstacle interaction [vine robot](https://www.vinerobots.org/) and 
 foldable pneaumatic actuators (FoldPAMs). I am particularly interested in using soft robotics to enhance our current understanding in human rehabilitation and exoskeletons.
 {style="text-align: justify;"}
