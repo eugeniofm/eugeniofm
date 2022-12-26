@@ -202,7 +202,7 @@ sections:
       text: |-
         {{< gallery album="demo" >}} 
     design:
-      columns: '1'
+      columns: '1'  
 
   # # - block: collection
   # #   id: featured
@@ -222,12 +222,12 @@ sections:
       title: Recent Publications
       text: |-
         {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
+        [Search for a specific publication here](./publication/)
         {{% /callout %}}
       filters:
         folders:
           - publication
-        exclude_featured: true
+        # # exclude_featured: true
     design:
       columns: '2'
       view: citation
