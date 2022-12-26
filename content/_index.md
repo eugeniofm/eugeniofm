@@ -217,9 +217,9 @@ sections:
   # #     view: card
 
   - block: collection
-    id: recentPublications
+    id: publications
     content:
-      title: Recent Publications
+      title: Publications
       text: |-
         {{% callout note %}}
         [Search for a specific publication here](./publication/)
