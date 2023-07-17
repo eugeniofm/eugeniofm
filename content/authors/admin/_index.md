@@ -81,7 +81,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/eugeniofmCV.pdf
+    link: eugeniofmCV.pdf #uploads/eugeniofmCV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'efrias@purdue.edu'
