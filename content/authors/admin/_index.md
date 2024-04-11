@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Eugenio Frias Miranda
+title: Eugenio Frias-Miranda
 
 # Full name (for SEO)
 first_name: Eugenio
-last_name: Frias Miranda
+last_name: Frias-Miranda
 
 # Status emoji
 status: 
-  icon: 🦾
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -26,9 +26,9 @@ bio: My research interests include soft robotics, wearable devices and rehabilit
 
 # Interests to show in About widget
 interests:
+  - Wearable Robotics 
   - Soft Robotics
-  - Exoskeletons
-  - Rehabilitation Robotics
+  - Haptics
 
 
 # Education to show in About widget
