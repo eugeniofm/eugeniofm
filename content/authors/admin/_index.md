@@ -90,7 +90,6 @@ email: 'efrias@purdue.edu'
 highlight_name: true
 ---
 
-I am a PhD student in Mechanical Engineering at Purdue University. I work in Laura Blumenschein's [RAAD Lab](https://lhblumen.wixsite.com/website-1) and am currently funded by a Graduate Research Assistanceship. 
-My research focus is soft robotics. Currently I am working on developing a self sensing obstacle interaction [vine robot](https://www.vinerobots.org/) and 
-foldable pneaumatic actuators (FoldPAMs). I am particularly interested in using soft robotics to enhance our current understanding in human rehabilitation and wearable devices.
+
+Eugenio is a PhD student in Mechanical Engineering at Purdue University, from San Juan, Puerto Rico. He works in Laura Blumenschein’s Robust and Adaptive Design Lab ([RAAD Lab](https://lhblumen.wixsite.com/website-1)) and is currently funded by a graduate research assistantship. His research focus is on soft and wearable robotics. At present, Eugenio is working exploring the motor learning effects of highly wearable kinesthetic force feedback devices. Some of his past work includes the development of a self-sensing obstacle interaction [vine robot](https://www.vinerobots.org/) and folded pneumatic actuators (foldPAMs). He is particularly interested in using soft robotics to enhance the current understanding in human rehabilitation and wearable devices. In his free time, Eugenio enjoys playing soccer and learning about technology.
 {style="text-align: justify;"}
