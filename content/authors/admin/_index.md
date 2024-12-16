@@ -22,7 +22,7 @@ organizations:
     url: https://engineering.purdue.edu/ME
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include soft robotics, wearable devices and rehabilitation engineering.
+bio: My research interests include soft, wearable, and rehabilitation robotics.
 
 # Interests to show in About widget
 interests:
