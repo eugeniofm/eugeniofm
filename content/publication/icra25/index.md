@@ -1,22 +1,22 @@
 ---
-title: 'The Folded Pneumatic Artificial Muscle (foldPAM): Towards Programmability and Control via End Geometry'
+title: 'Anisotropic Stiffness and Programmable Actuation for Soft Robots Enabled by an Inflated Rotational Joint'
 
 # Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
 authors:
   - Sicheng Wang
-  - admin
+  - Eugenio Frias-Miranda
+  - Antonio Alvarez Valdivia
   - Laura H. Blumenschein
 
 # Author notes (optional)
 author_notes:
-  - 'First Author'
+  - ''
   - 'Second Author'
+  - ''
   - 'Principal Investigator'
 
-date: '2022-09-03T00:00:00Z'
-doi: ''
+date: '2024-10-25'
+doi: '10.48550/arXiv.2410.13003'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ''
@@ -28,37 +28,27 @@ publishDate: ''
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: The Folded Pneumatic Artificial Muscle (foldPAM) - Towards Programmability and Control via End Geometry
-publication_short: 
+publication: arXiv preprint arXiv:2410.13003
+publication_short: arXiv preprint
 
-abstract: Soft pneumatic actuators have seen applications in many soft robotic systems, and their pressure-driven nature presents unique challenges and opportunities for controlling their motion. In this work, we present a new concept- designing and controlling pneumatic actuators via end geometry. We demonstrate a novel actuator class, named the folded Pneumatic Artificial Muscle (foldPAM), which features a thin-filmed air pouch that is symmetrically folded on each side. Varying the folded portion of the actuator changes the end constraints and, hence, the force-strain relationships. We investigated this change experimentally by measuring the force-strain relationship of individual foldPAM units with various lengths and amounts of folding. In addition to static-geometry units, an actuated foldPAM device was designed to produce continuous, on-demand adjustment of the end geometry, enabling closed-loop position control while maintaining constant pressure. Experiments with the device indicate that geometry control allows access to different areas on the force-strain plane and that closed-loop geometry control can achieve errors within 0.5% of the actuation range.
+abstract: Soft robots are highly adaptable for tasks requiring compliance and distributed actuation. This paper presents an inflatable actuation module with a defined bending plane and anisotropic stiffness enabled by forced partial wrinkling. By adjusting the ratio of wrinkled to unwrinkled regions, the module achieves tunable stiffness, enabling controlled kinematics and actuation sequences. Experiments confirm the efficacy of this approach in decoupling actuation efficiency from load capacity, providing a novel pathway for embedding intelligent actuation into soft robots.
 
 # Summary. An optional shortened abstract.
-# # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Exploring anisotropic stiffness and programmable actuation for soft robots via inflated rotational joints.
 
-tags: []
+tags: [soft robotics, anisotropic stiffness, inflated rotational joint]
 
 # Display this page in the Featured widget?
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: 'https://arxiv.org/abs/2209.01315'
-url_video: ''
+links:
+  - name: Read on arXiv
+    url: https://arxiv.org/abs/2410.13003
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: Eugenio Frias'
+  caption: 'Conceptual design of the inflated rotational joint.'
   focal_point: ''
   preview_only: false
 
@@ -68,12 +58,12 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - InflatedRotationalJointProject
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-# slides: example
+slides: ""
 ---
