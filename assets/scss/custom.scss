@@ -32,3 +32,9 @@ body.dark,
 body.dark .navbar-nav .nav-link.active {
   color: #ceb888 !important;
 }
+
+.theme-toggle-button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
