@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Roboto Slab"
+
+# Google Fonts family and weights used throughout the site.
+google_fonts = "family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+
+# Use Roboto Slab for all website typography.
+heading_font = "Roboto Slab"
+body_font = "Roboto Slab"
+nav_font = "Roboto Slab"
+mono_font = "Roboto Slab"
