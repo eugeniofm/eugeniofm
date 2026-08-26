@@ -8,7 +8,7 @@ name = "EugenioFM"
   # Menu
   menu_primary = "#CEB888"
   menu_text = "#1f2933"
-  menu_text_active = "#0f5f66"
+  menu_text_active = "#fff"
   menu_title = "#1f2933"
 
   # Home sections
