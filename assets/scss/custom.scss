@@ -1,0 +1,34 @@
+// Dark mode uses Purdue gold for text and white for interactive accents.
+body.dark,
+.dark .docs-toc-link,
+.dark input,
+.dark select,
+.dark .form-control,
+.dark .docs-sidebar .nav > li:not(.active) > a {
+  color: #ceb888;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark .portrait-title h2 {
+  color: #ceb888;
+}
+
+.dark .portrait-title h3,
+.dark ul.ul-edu li .description p.institution,
+.dark .pub-icon,
+.dark .talk-metadata {
+  color: rgba(206, 184, 136, 0.78);
+}
+
+.dark .navbar-nav .nav-link {
+  color: #ceb888 !important;
+}
+
+.dark .navbar-nav .nav-link.active {
+  color: #fff !important;
+}
