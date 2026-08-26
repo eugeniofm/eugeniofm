@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Mechanical Engineering PhD Student
+role: Mechanical Engineering PhD Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -91,5 +91,5 @@ highlight_name: true
 ---
 
 
-Eugenio is a PhD student in Mechanical Engineering at Purdue University, from San Juan, Puerto Rico. He works in Laura Blumenschein’s Robust and Adaptive Design Lab ([RAAD Lab](https://lhblumen.wixsite.com/website-1)) and is currently funded by a graduate research assistantship. His research focus is on soft and wearable robotics. At present, Eugenio is working exploring the motor learning effects of highly wearable kinesthetic force feedback devices. Some of his past work includes the development of a self-sensing obstacle interaction [vine robot](https://www.vinerobots.org/) and folded pneumatic actuators (foldPAMs). He is particularly interested in using soft robotics to enhance the current understanding in human rehabilitation and wearable devices. In his free time, Eugenio enjoys playing soccer and learning about technology.
+Eugenio is a PhD candidate in Mechanical Engineering at Purdue University, from San Juan, Puerto Rico. He works in Laura Blumenschein’s Robust and Adaptive Design Lab ([RAAD Lab](https://lhblumen.wixsite.com/website-1)) and is currently funded by a graduate research assistantship. His research focus is on soft and wearable robotics. At present, Eugenio is working exploring the motor learning effects of highly wearable kinesthetic force feedback devices. Some of his past work includes the development of a self-sensing obstacle interaction [vine robot](https://www.vinerobots.org/) and folded pneumatic actuators (foldPAMs). He is particularly interested in using soft robotics to enhance the current understanding in human rehabilitation and wearable devices. In his free time, Eugenio enjoys playing soccer and learning about technology.
 {style="text-align: justify;"}
