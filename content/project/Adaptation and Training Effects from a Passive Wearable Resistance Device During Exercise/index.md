@@ -13,11 +13,7 @@ image:
   caption: Photo by Eugenio FM
   focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/eugeniofm_
+links: []
 url_code: ''
 url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10719863'
 url_slides: ''

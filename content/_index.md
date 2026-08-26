@@ -86,14 +86,6 @@ sections:
   # #             * Analysing
   # #             * Modelling
   # #             * Deploying
-  # #       - title: Professor of Semiconductor Physics
-  # #         company: University X
-  # #         company_url: ''
-  # #         company_logo: org-x
-  # #         location: California
-  # #         date_start: '2016-01-01'
-  # #         date_end: '2020-12-31'
-  # #         description: Taught electronic engineering and researched semiconductor physics.
   # #   design:
   # #     columns: '2'
 
@@ -263,11 +255,7 @@ sections:
         postcode: '47907'
         country: United States
         country_code: US
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: Follow me!
-          link: 'https://twitter.com/eugeniofm_'
+      contact_links: []
       # Automatically link email and phone or display as text?
       autolink: true
     design:
@@ -297,10 +285,6 @@ sections:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
         - icon: skype
           icon_pack: fab
           name: Skype Me

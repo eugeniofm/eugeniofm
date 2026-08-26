@@ -14,11 +14,7 @@ image:
   caption: Photo by Eugenio FM
   focal_point: Smart
 
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/eugeniofm_
+links: []
 url_code: ''
 url_pdf: ''
 url_slides: ''
