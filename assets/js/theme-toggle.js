@@ -27,8 +27,8 @@
     const isDark = document.body.classList.contains('dark');
     const icon = button.querySelector('i');
 
-    icon?.classList.toggle('fa-moon', !isDark);
-    icon?.classList.toggle('fa-sun', isDark);
+    icon?.classList.toggle('fa-moon', isDark);
+    icon?.classList.toggle('fa-sun', !isDark);
     button.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
     button.setAttribute('aria-pressed', String(isDark));
   };
