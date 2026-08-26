@@ -3,10 +3,10 @@ name = "EugenioFM"
 
 [light]
   # Primary
-  primary = "#8DDCDC"
+  primary = "#CEB888"
 
   # Menu
-  menu_primary = "#8DDCDC"
+  menu_primary = "#CEB888"
   menu_text = "#1f2933"
   menu_text_active = "#0f5f66"
   menu_title = "#1f2933"
