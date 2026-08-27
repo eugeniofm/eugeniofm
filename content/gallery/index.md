@@ -6,14 +6,14 @@ type: landing
 sections:
   # Add newer gallery timeline sections above older sections.
   - block: markdown
-    id: gallery-fall-2026
+    id: gallery-fall-2025
     content:
-      title: Fall 2026
+      title: Fall 2025
       subtitle: ''
       text: |-
-        At the end of the Fall 2026 semester, I passed my preliminary exam! I was very tired afterward...
+        At the end of the Fall 2025 semester, I passed my preliminary exam! I was very tired afterward...
 
-        {{< gallery album="fall-2026-preliminary-exam" >}}
+        {{< gallery album="fall-2025-preliminary-exam" >}}
     design:
       columns: '1'
       css_class: gallery-timeline-entry
