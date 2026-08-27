@@ -13,6 +13,8 @@ sections:
     content:
       title: Research Overview
       text: |-
+        <img class="research-overview-graphic" src="/images/research/research-overview.png" alt="Diagram showing the two-way relationship between humans and soft robots">
+
         Soft robots leverage **compliance, flexibility, and deformation** to operate safely in close proximity to people and to function in constrained, uncertain environments. However, the same compliance that enables safe physical interaction also creates major challenges for **modeling, sensing, and control**, especially for continuum robots whose high-dimensional shape changes and nonlinear dynamics are difficult to predict reliably.
 
         My work investigates **compliant human-robot interaction** as a design principle for addressing these challenges, asking:
