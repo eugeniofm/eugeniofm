@@ -2,6 +2,10 @@
 title: Research
 date: 2024-12-16
 type: landing
+aliases:
+  - /project/adaptation-and-training-effects-from-a-passive-wearable-resistance-device-during-exercise/
+  - /project/localization/
+  - /project/foldpam/
 
 sections:
   - block: markdown
