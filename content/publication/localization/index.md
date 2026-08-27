@@ -1,69 +1,34 @@
 ---
-title: 'Vine Robot Localization Via Collision'
-
-# Authors
+title: 'Vine Robot Localization via Collision'
 authors:
   - Eugenio Frias-Miranda
   - Alankriti Srivastava
   - Sicheng Wang
   - Laura H. Blumenschein
-
-# Author notes (optional)
 author_notes:
   - 'First Author'
   - ''
   - ''
   - 'Principal Investigator'
-
 date: '2023-10-01'
 doi: '10.1109/IROS55552.2023.10342238'
-
-# Schedule page publish date (NOT publication's date).
 publishDate: ''
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
 publication_types: ['1']
-
-# Publication name and optional abbreviated publication name.
-publication: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-publication_short: IROS 2023
-
-abstract: Localization is critical for robots performing tasks in unstructured environments, yet traditional methods struggle with occlusions and sensor limitations. This paper introduces a novel localization strategy for Vine Robots, leveraging contact-based sensing to estimate the tip position via collision detection. Single- and multi-obstacle experiments demonstrated less than 5% error relative to the robot's length, establishing the approach as a robust method for soft robot localization.
-
-# Summary. An optional shortened abstract.
-# summary: Localization for soft robots using contact sensing and collision modeling.
-
-tags: [soft robotics, localization, Vine Robots, collision sensing]
-
-# Display this page in the Featured widget?
+publication: '2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 2515-2521'
+publication_short: 'IROS 2023'
+abstract: >-
+  Localization of robots is a complex task that is often hindered by the sensors these systems use. Due to the majority of field robots being rigid, most of these sensing modalities have the same common faults, such as performance being hindered when their camera vision is obscured. In addition, rigid systems lack flexibility when traversing multiple environments: especially when traversing uneven and unpredictable ground. Soft robots, which can adaptably interact with the environment, could serve as a solution to both problems. One specific soft robot, the Vine Robot, has exhibited excellent performance while moving through constrained, unpredictable environments. This makes the Vine Robot an ideal candidate for a novel method of sensing and localizing in environments, obstacle collision localization. We use our understanding of the nature of Vine Robot motion to be able to predict the tip position of the robot at every instant based on sensor feedback. Through the single obstacle experiments, it was found that our algorithm can provide a precise picture of the tip position of the robot in differing environments. Further, in a multi obstacle demonstration, less than 5% max error relative to the full robot length was observed on the path prediction. Our study helps lay the foundation for a new method for Vine Robot localization using contact as a new sensing modality.
+tags: [soft robotics, localization, vine robots, collision sensing]
 featured: true
-
-# Custom links (uncomment lines below)
 links:
-  - name: Read on IEEE Xplore
+  - name: IEEE Xplore
     url: https://ieeexplore.ieee.org/document/10342238
-
-# Featured image
+url_pdf: '/publication/localization/Vine_Robot_Localization_Via_Collision.pdf'
+url_video: 'https://www.youtube.com/watch?v=dF74yGpmTJo'
 image:
-  caption: 'Visualization of the Vine Robot localization method.'
+  caption: 'Vine robot localization through obstacle collision.'
   focal_point: ''
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - VineRobotLocalizationProject
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+projects: []
+slides: ''
 ---

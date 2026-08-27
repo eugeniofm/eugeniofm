@@ -1,3 +1,51 @@
+// Keep the site compact and readable across every page.
+html {
+  font-size: 14px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.1rem;
+}
+
+.navbar-brand {
+  font-size: 1.15rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+.portrait-title h2,
+.section-heading h1 {
+  font-size: 2rem;
+}
+
+.article-style,
+.pub-list-item,
+.media.stream-item,
+.card-text {
+  font-size: 1rem;
+}
+
 // Dark mode uses white for text and Purdue gold for interactive accents.
 body.dark,
 .dark .docs-toc-link,
@@ -41,4 +89,107 @@ body.dark #navbar-main .navbar-nav .nav-link.active {
   background: transparent;
   border: 0;
   cursor: pointer;
+}
+
+// Research page entries pair each project figure with its complete paper record.
+#research-overview,
+#soft-robots-help-humans,
+#humans-help-soft-robots,
+#other-projects {
+  padding: 3rem 0;
+}
+
+.research-entry {
+  display: grid;
+  grid-template-columns: minmax(170px, 24%) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.6rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.research-entry:first-of-type {
+  padding-top: 0.5rem;
+  border-top: 0;
+}
+
+.research-entry__media {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #e8e8e8;
+}
+
+.research-entry__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.research-entry__placeholder {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  padding: 1rem;
+  color: #4a4a4a;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.research-entry__title {
+  margin: 0 0 0.35rem;
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+
+.research-entry__citation,
+.research-entry__summary,
+.research-entry__summary p,
+.research-entry__links {
+  font-size: 1rem;
+}
+
+.research-entry__citation {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.research-entry__summary p {
+  margin-bottom: 0.8rem;
+}
+
+.research-entry__links {
+  display: flex;
+  gap: 0.9rem;
+  margin: 0.3rem 0 0;
+}
+
+.research-entry__link {
+  font-weight: 700;
+}
+
+.dark .research-entry {
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark .research-entry__media {
+  background: #30333c;
+}
+
+.dark .research-entry__placeholder {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 767px) {
+  .research-entry {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .research-entry__media {
+    max-width: 420px;
+  }
 }

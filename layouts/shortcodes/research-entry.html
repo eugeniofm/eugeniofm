@@ -1,0 +1,29 @@
+{{- $image := .Get "image" -}}
+{{- $title := .Get "title" -}}
+{{- $citation := .Get "citation" -}}
+{{- $pdf := .Get "pdf" -}}
+{{- $video := .Get "video" -}}
+<article class="research-entry">
+  <div class="research-entry__media">
+    {{- if $image -}}
+      <img src="{{ $image | relURL }}" alt="{{ .Get "image_alt" }}" loading="lazy">
+    {{- else -}}
+      <div class="research-entry__placeholder" role="img" aria-label="{{ .Get "placeholder" | default "Project figure forthcoming" }}">
+        <span>{{ .Get "placeholder" | default "Project figure forthcoming" }}</span>
+      </div>
+    {{- end -}}
+  </div>
+  <div class="research-entry__content">
+    <h3 class="research-entry__title">{{ $title }}</h3>
+    {{- with $citation }}
+      <p class="research-entry__citation"><em>{{ . }}</em></p>
+    {{- end }}
+    <div class="research-entry__summary">{{ .Inner | markdownify }}</div>
+    {{- if or $pdf $video }}
+      <p class="research-entry__links">
+        {{- with $pdf }}<a class="research-entry__link" href="{{ . }}">[PDF]</a>{{ end -}}
+        {{- with $video }}<a class="research-entry__link" href="{{ . }}">[Video]</a>{{ end -}}
+      </p>
+    {{- end }}
+  </div>
+</article>

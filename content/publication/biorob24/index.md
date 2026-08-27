@@ -1,7 +1,5 @@
 ---
 title: 'Adaptation and Training Effects from a Passive, Wearable Resistance Device During Exercise'
-
-# Authors
 authors:
   - Eugenio Frias-Miranda
   - Hong-Anh A. Nguyen
@@ -11,8 +9,6 @@ authors:
   - Matthew Cochran
   - Deva D. Chan
   - Laura H. Blumenschein
-
-# Author notes (optional)
 author_notes:
   - 'First Author'
   - ''
@@ -22,56 +18,25 @@ author_notes:
   - ''
   - ''
   - 'Principal Investigator'
-
 date: '2024-04-21'
 doi: ''
-
-# Schedule page publish date (NOT publication's date).
 publishDate: ''
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
 publication_types: ['1']
-
-# Publication name and optional abbreviated publication name.
-publication: Adaptation and Training Effects from a Passive, Wearable Resistance Device During Exercise
-publication_short: 
-
-abstract: Wearable technology's integration into exercise regimens has enhanced human motor capabilities and rehabilitation. This study examines the motor learning impact of a passive Wearable Resistance (WR) device with elastic bands that produce force fields in response to body movement. A method for characterizing the device's forces was developed and used in an experimental study assessing its effect on squat form compared to visual or no feedback. The WR device demonstrated potential for improving squat form consistency and reducing cross-body asymmetry, offering insights into passive resistance's role in motor learning and exercise.
-
-# Summary. An optional shortened abstract.
-# summary: Investigating passive force fields in motor learning and squat performance.
-
+publication: '2024 10th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), pp. 1541-1548'
+publication_short: 'BioRob 2024'
+abstract: >-
+  The integration of technology into exercise regimens has emerged as a strategy to enhance normal human capabilities and return human motor function after injury or illness by enhancing motor learning. Much research has focused on how active devices, whether confined to a lab or made into a wearable format, can apply forces at set times and conditions to optimize injury prevention and proper movement. As a result, these devices tend to be confined to single movements or simple interventions. A focus on active forces, however, ignores the potential of continuous passive interactions. In this paper, we investigate how passive device behaviors by themselves can contribute to the process of training proper movement. Using a wearable resistance (WR) device, which is outfitted with elastic bands, we apply a force field that passively changes in response to full-body movements. We first develop a method to measure the produced forces from the device without impeding the function and we characterize the device's force generation. We then present a study assessing the impact of the WR device on overhead squat form compared to visual or no feedback. Our findings suggest that the force fields produced while training with the WR device could improve performance in full-body exercises more consistently compared to direct visual feedback, with effects seen on cross-body asymmetry. Our results provide insights into the application of passive wearable resistance technology in practical exercise settings.
 tags: [soft robotics, motor learning, wearable resistance]
-
-# Display this page in the Featured widget?
 featured: true
-
-# Custom links (uncomment lines below)
 links:
-  - name: Publication on IEEE Xplore
+  - name: IEEE Xplore
     url: https://ieeexplore.ieee.org/abstract/document/10719863
-
-# Featured image
+url_pdf: '/publication/biorob24/BioRob24_WearableResistanceDevice.pdf'
+url_video: 'https://www.youtube.com/watch?v=Ewxa5ES3usY'
 image:
-  caption: 'A participant performing an overhead squat with the WR device.'
+  caption: 'A participant performing an overhead squat with the wearable resistance device.'
   focal_point: ''
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - WearableResistanceProject
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+projects: []
+slides: ''
 ---

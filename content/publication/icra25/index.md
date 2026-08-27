@@ -1,69 +1,33 @@
 ---
 title: 'Anisotropic Stiffness and Programmable Actuation for Soft Robots Enabled by an Inflated Rotational Joint'
-
-# Authors
 authors:
   - Sicheng Wang
   - Eugenio Frias-Miranda
   - Antonio Alvarez Valdivia
   - Laura H. Blumenschein
-
-# Author notes (optional)
 author_notes:
   - ''
   - 'Second Author'
   - ''
   - 'Principal Investigator'
-
-date: '2024-10-25'
-doi: '10.48550/arXiv.2410.13003'
-
-# Schedule page publish date (NOT publication's date).
+date: '2025-01-01'
+doi: ''
 publishDate: ''
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ['3']
-
-# Publication name and optional abbreviated publication name.
-publication: arXiv preprint arXiv:2410.13003
-publication_short: arXiv preprint
-
-abstract: Soft robots are highly adaptable for tasks requiring compliance and distributed actuation. This paper presents an inflatable actuation module with a defined bending plane and anisotropic stiffness enabled by forced partial wrinkling. By adjusting the ratio of wrinkled to unwrinkled regions, the module achieves tunable stiffness, enabling controlled kinematics and actuation sequences. Experiments confirm the efficacy of this approach in decoupling actuation efficiency from load capacity, providing a novel pathway for embedding intelligent actuation into soft robots.
-
-# Summary. An optional shortened abstract.
-# summary: Exploring anisotropic stiffness and programmable actuation for soft robots via inflated rotational joints.
-
+publication_types: ['1']
+publication: '2025 IEEE International Conference on Robotics and Automation (ICRA), pp. 3414-3420'
+publication_short: 'ICRA 2025'
+abstract: >-
+  Soft robots are known for their ability to perform tasks with great adaptability, enabled by their distributed, non-uniform stiffness and actuation. Bending is the most fundamental motion for soft robot design, but creating robust, and easy-to-fabricate soft bending joint with tunable properties remains an active problem of research. In this work, we demonstrate an inflatable actuation module for soft robots with a defined bending plane enabled by forced partial wrinkling. This lowers the structural stiffness in the bending direction, with the final stiffness easily designed by the ratio of wrinkled and unwrinkled regions. We show the stiffness properties of the actuation module through a first-principle model validated by experimental characterization, and demonstrate the module's ability to maintain the kinematic constraint over a large range of loading conditions. We illustrate how these properties give the potential for complex actuation in a soft continuum robot and for decoupling actuation force and efficiency from load capacity. The module provides a novel method for embedding intelligent actuation into soft pneumatic robots.
 tags: [soft robotics, anisotropic stiffness, inflated rotational joint]
-
-# Display this page in the Featured widget?
 featured: true
-
-# Custom links (uncomment lines below)
 links:
-  - name: Read on arXiv
+  - name: arXiv
     url: https://arxiv.org/abs/2410.13003
-
-# Featured image
+url_pdf: '/publication/icra25/Inflatable_Joint_ICRA_25.pdf'
 image:
-  caption: 'Conceptual design of the inflated rotational joint.'
+  caption: 'Inflated rotational joint for programmable soft robot actuation.'
   focal_point: ''
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - InflatedRotationalJointProject
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
+projects: []
+slides: ''
 ---
