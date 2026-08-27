@@ -254,6 +254,19 @@ body.dark #navbar-main .navbar-nav .nav-link.active {
   color: #ceb888 !important;
 }
 
+.gallery-timeline-entry .gallery-grid {
+  width: 100%;
+  max-width: 780px;
+  margin: 1.5rem auto 0;
+  clear: both;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.gallery-timeline-entry .gallery-item {
+  height: 190px;
+}
+
 .dark .gallery-timeline-entry .container::before,
 .dark #gallery-2022-05-2023-03 .container::before {
   background: rgba(255, 255, 255, 0.24);
@@ -278,5 +291,15 @@ body.dark #navbar-main .navbar-nav .nav-link.active {
   .gallery-timeline-entry .container::after,
   #gallery-2022-05-2023-03 .container::after {
     left: 0.43rem;
+  }
+
+  .gallery-timeline-entry .gallery-grid {
+    max-width: 360px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .gallery-timeline-entry .gallery-item {
+    height: 145px;
   }
 }
