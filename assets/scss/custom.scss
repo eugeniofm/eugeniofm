@@ -211,3 +211,72 @@ body.dark #navbar-main .navbar-nav .nav-link.active {
     max-width: 420px;
   }
 }
+
+// Gallery collections form a reverse-chronological timeline.
+.gallery-timeline-entry,
+#gallery-2022-05-2023-03 {
+  padding: 3rem 0;
+}
+
+.gallery-timeline-entry .container,
+#gallery-2022-05-2023-03 .container {
+  position: relative;
+  padding-left: 4rem;
+}
+
+.gallery-timeline-entry .container::before,
+#gallery-2022-05-2023-03 .container::before {
+  position: absolute;
+  top: 0.8rem;
+  bottom: 0;
+  left: 1.35rem;
+  width: 2px;
+  content: '';
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.gallery-timeline-entry .container::after,
+#gallery-2022-05-2023-03 .container::after {
+  position: absolute;
+  top: 0.55rem;
+  left: 0.93rem;
+  width: 14px;
+  height: 14px;
+  content: '';
+  background: #ceb888;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #ceb888;
+}
+
+.gallery-timeline-entry h1,
+#gallery-2022-05-2023-03 h1 {
+  color: #ceb888 !important;
+}
+
+.dark .gallery-timeline-entry .container::before,
+.dark #gallery-2022-05-2023-03 .container::before {
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.dark .gallery-timeline-entry .container::after,
+.dark #gallery-2022-05-2023-03 .container::after {
+  border-color: #23252d;
+}
+
+@media (max-width: 767px) {
+  .gallery-timeline-entry .container,
+  #gallery-2022-05-2023-03 .container {
+    padding-left: 3rem;
+  }
+
+  .gallery-timeline-entry .container::before,
+  #gallery-2022-05-2023-03 .container::before {
+    left: 0.85rem;
+  }
+
+  .gallery-timeline-entry .container::after,
+  #gallery-2022-05-2023-03 .container::after {
+    left: 0.43rem;
+  }
+}
