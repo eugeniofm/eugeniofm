@@ -3,7 +3,13 @@
 {{- $title := .Get "title" -}}
 {{- $citation := .Get "citation" -}}
 {{- $pdf := .Get "pdf" -}}
+{{- $cite := .Get "cite" -}}
 {{- $video := .Get "video" -}}
+{{- $doi := .Get "doi" -}}
+{{- $source := .Get "source" -}}
+{{- $sourceLabel := .Get "source_label" | default "Source" -}}
+{{- $highlightedCitation := replace $citation "Eugenio (Henny) Frias-Miranda" "<strong class=\"research-entry__author\">Eugenio (Henny) Frias-Miranda</strong>" -}}
+{{- $highlightedCitation = replace $highlightedCitation "Eugenio Frias-Miranda" "<strong class=\"research-entry__author\">Eugenio Frias-Miranda</strong>" -}}
 <article class="research-entry"{{ with $id }} id="{{ . }}"{{ end }}>
   <div class="research-entry__media">
     {{- if $image -}}
@@ -17,13 +23,16 @@
   <div class="research-entry__content">
     <h3 class="research-entry__title">{{ $title }}</h3>
     {{- with $citation }}
-      <p class="research-entry__citation"><em>{{ . }}</em></p>
+      <p class="research-entry__citation"><em>{{ $highlightedCitation | safeHTML }}</em></p>
     {{- end }}
     <div class="research-entry__summary">{{ .Inner | markdownify }}</div>
-    {{- if or $pdf $video }}
+    {{- if or $pdf $cite $video $doi $source }}
       <p class="research-entry__links">
         {{- with $pdf }}<a class="research-entry__link" href="{{ . }}">[PDF]</a>{{ end -}}
+        {{- with $cite }}<a class="research-entry__link" href="{{ . }}">[Cite]</a>{{ end -}}
         {{- with $video }}<a class="research-entry__link" href="{{ . }}">[Video]</a>{{ end -}}
+        {{- with $doi }}<a class="research-entry__link" href="{{ . }}">[DOI]</a>{{ end -}}
+        {{- with $source }}<a class="research-entry__link" href="{{ . }}">[{{ $sourceLabel }}]</a>{{ end -}}
       </p>
     {{- end }}
   </div>
