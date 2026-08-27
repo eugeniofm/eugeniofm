@@ -1,15 +1,16 @@
 {{- $image := .Get "image" -}}
+{{- $id := .Get "id" -}}
 {{- $title := .Get "title" -}}
 {{- $citation := .Get "citation" -}}
 {{- $pdf := .Get "pdf" -}}
 {{- $video := .Get "video" -}}
-<article class="research-entry">
+<article class="research-entry"{{ with $id }} id="{{ . }}"{{ end }}>
   <div class="research-entry__media">
     {{- if $image -}}
       <img src="{{ $image | relURL }}" alt="{{ .Get "image_alt" }}">
     {{- else -}}
-      <div class="research-entry__placeholder" role="img" aria-label="{{ .Get "placeholder" | default "Project figure forthcoming" }}">
-        <span>{{ .Get "placeholder" | default "Project figure forthcoming" }}</span>
+      <div class="research-entry__placeholder" role="img" aria-label="{{ .Get "placeholder" | default "Coming soon" }}">
+        <span>{{ .Get "placeholder" | default "Coming soon" }}</span>
       </div>
     {{- end -}}
   </div>

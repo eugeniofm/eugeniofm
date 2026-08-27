@@ -1,7 +1,7 @@
 ---
 title: 'Adaptation and Training Effects from a Passive, Wearable Resistance Device During Exercise'
 authors:
-  - Eugenio Frias-Miranda
+  - admin
   - Hong-Anh A. Nguyen
   - Jeremy Hampton
   - Trenner A. Jones
@@ -9,15 +9,7 @@ authors:
   - Matthew Cochran
   - Deva D. Chan
   - Laura H. Blumenschein
-author_notes:
-  - 'First Author'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - 'Principal Investigator'
+external_link: '/projects/#adaptation-training-effects'
 date: '2024-04-21'
 doi: ''
 publishDate: ''

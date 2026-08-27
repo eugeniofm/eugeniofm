@@ -2,12 +2,9 @@
 title: 'The Folded Pneumatic Artificial Muscle (foldPAM): Towards Programmability and Control via End Geometry'
 authors:
   - Sicheng Wang
-  - Eugenio Frias-Miranda
+  - admin
   - Laura H. Blumenschein
-author_notes:
-  - 'First Author'
-  - 'Second Author'
-  - 'Principal Investigator'
+external_link: '/projects/#foldpam'
 date: '2023-03-01'
 doi: ''
 publishDate: ''

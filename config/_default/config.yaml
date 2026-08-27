@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Eugenio (Henny) Frias-Miranda # Website name
-baseURL: 'https://eugeniofm.netlify.app/' # Website URL
+baseURL: 'https://eugeniofm.com/' # Website URL
 timeZone: America/Indiana/Indianapolis
 
 ############################

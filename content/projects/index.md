@@ -32,6 +32,7 @@ sections:
       title: I. How can soft robots help humans?
       text: |-
         {{< research-entry
+          id="adaptation-training-effects"
           image="/images/research/biorob24.png"
           image_alt="A participant wearing the passive wearable resistance device"
           title="Adaptation and Training Effects from a Passive, Wearable Resistance Device During Exercise"
@@ -43,11 +44,11 @@ sections:
         {{< /research-entry >}}
 
         {{< research-entry
-          title="Journal Paper Submission"
-          citation="Manuscript details forthcoming"
-          placeholder="Project figure forthcoming"
+          id="force-magnitude-after-effects"
+          title="Role of Kinesthetic Force Magnitude in Motor Learning After-Effects"
+          citation="[Submitted]"
+          placeholder="Coming soon"
         >}}
-        Additional information will be uploaded soon.
         {{< /research-entry >}}
     design:
       columns: '1'
@@ -58,11 +59,11 @@ sections:
       title: II. How can humans help soft robots?
       text: |-
         {{< research-entry
+          id="current-work"
           title="Current Work"
-          citation="Publication details forthcoming"
-          placeholder="Project figure forthcoming"
+          placeholder="Coming soon"
         >}}
-        Additional information will be uploaded soon.
+        Coming soon.
         {{< /research-entry >}}
     design:
       columns: '1'
@@ -73,6 +74,7 @@ sections:
       title: III. Other Projects
       text: |-
         {{< research-entry
+          id="vine-robot-localization"
           image="/images/research/localization.png"
           image_alt="Vine robot collision localization experiment"
           title="Vine Robot Localization via Collision"
@@ -84,6 +86,7 @@ sections:
         {{< /research-entry >}}
 
         {{< research-entry
+          id="inflated-rotational-joint"
           image="/images/research/icra25.png"
           image_alt="Inflated rotational joint for a soft robot"
           title="Anisotropic Stiffness and Programmable Actuation for Soft Robots Enabled by an Inflated Rotational Joint"
@@ -94,6 +97,7 @@ sections:
         {{< /research-entry >}}
 
         {{< research-entry
+          id="foldpam"
           image="/images/research/foldpam.jpg"
           image_alt="Folded pneumatic artificial muscle actuator"
           title="The Folded Pneumatic Artificial Muscle (foldPAM): Towards Programmability and Control via End Geometry"

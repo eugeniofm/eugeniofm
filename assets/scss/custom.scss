@@ -99,6 +99,19 @@ body.dark #navbar-main .navbar-nav .nav-link.active {
   padding: 3rem 0;
 }
 
+#research-overview h1,
+#soft-robots-help-humans h1,
+#humans-help-soft-robots h1,
+#other-projects h1 {
+  color: #ceb888 !important;
+}
+
+.article-metadata .author-highlighted,
+.li-cite-author .author-highlighted {
+  color: #ceb888 !important;
+  font-weight: 700;
+}
+
 .research-entry {
   display: grid;
   grid-template-columns: minmax(170px, 24%) minmax(0, 1fr);

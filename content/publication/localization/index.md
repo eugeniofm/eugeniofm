@@ -1,15 +1,11 @@
 ---
 title: 'Vine Robot Localization via Collision'
 authors:
-  - Eugenio Frias-Miranda
+  - admin
   - Alankriti Srivastava
   - Sicheng Wang
   - Laura H. Blumenschein
-author_notes:
-  - 'First Author'
-  - ''
-  - ''
-  - 'Principal Investigator'
+external_link: '/projects/#vine-robot-localization'
 date: '2023-10-01'
 doi: '10.1109/IROS55552.2023.10342238'
 publishDate: ''

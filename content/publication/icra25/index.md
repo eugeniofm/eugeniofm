@@ -2,14 +2,10 @@
 title: 'Anisotropic Stiffness and Programmable Actuation for Soft Robots Enabled by an Inflated Rotational Joint'
 authors:
   - Sicheng Wang
-  - Eugenio Frias-Miranda
+  - admin
   - Antonio Alvarez Valdivia
   - Laura H. Blumenschein
-author_notes:
-  - ''
-  - 'Second Author'
-  - ''
-  - 'Principal Investigator'
+external_link: '/projects/#inflated-rotational-joint'
 date: '2025-01-01'
 doi: ''
 publishDate: ''
