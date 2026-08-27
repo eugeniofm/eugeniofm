@@ -15,8 +15,8 @@
     {{- if $image -}}
       <img src="{{ $image | relURL }}" alt="{{ .Get "image_alt" }}">
     {{- else -}}
-      <div class="research-entry__placeholder" role="img" aria-label="{{ .Get "placeholder" | default "Coming soon" }}">
-        <span>{{ .Get "placeholder" | default "Coming soon" }}</span>
+      <div class="research-entry__placeholder" role="img" aria-label="{{ .Get "placeholder" | default "[In Preparation]" }}">
+        <span>{{ .Get "placeholder" | default "[In Preparation]" }}</span>
       </div>
     {{- end -}}
   </div>

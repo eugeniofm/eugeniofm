@@ -35,7 +35,7 @@ sections:
           id="force-magnitude-after-effects"
           title="Role of Kinesthetic Force Magnitude in Motor Learning After-Effects"
           citation="[Submitted]"
-          placeholder="Coming soon"
+          placeholder="[In Preparation]"
         >}}
         {{< /research-entry >}}
 
@@ -65,9 +65,9 @@ sections:
         {{< research-entry
           id="current-work"
           title="Current Work"
-          placeholder="Coming soon"
+          placeholder="[In Preparation]"
         >}}
-        Coming soon.
+        [In Preparation]
         {{< /research-entry >}}
     design:
       columns: '1'
