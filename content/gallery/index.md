@@ -19,6 +19,19 @@ sections:
       css_class: gallery-timeline-entry
 
   - block: markdown
+    id: gallery-summer-2025
+    content:
+      title: Summer 2025
+      subtitle: ''
+      text: |-
+        During Summer 2025, I interned at GE Aerospace Research in Niskayuna, New York. I had the opportunity to put my project work to the test on an actual jet engine in Ohio!
+
+        {{< gallery album="summer-2025-ge-aerospace" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-2022-05-2023-03
     content:
       title: May 2022 - March 2023
