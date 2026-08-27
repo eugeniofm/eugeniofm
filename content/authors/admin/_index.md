@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Eugenio Frias-Miranda
+title: Eugenio (Henny) Frias-Miranda
 
 # Full name (for SEO)
-first_name: Eugenio
+first_name: Eugenio (Henny)
 last_name: Frias-Miranda
 
 # Status emoji
@@ -83,5 +83,5 @@ highlight_name: true
 ---
 
 
-Eugenio is a PhD candidate in Mechanical Engineering at Purdue University, from San Juan, Puerto Rico. He works in Laura Blumenschein’s Robust and Adaptive Design Lab ([RAAD Lab](https://lhblumen.wixsite.com/website-1)) and is currently funded by a graduate research assistantship. His research focus is on soft and wearable robotics. At present, Eugenio is working exploring the motor learning effects of highly wearable kinesthetic force feedback devices. Some of his past work includes the development of a self-sensing obstacle interaction [vine robot](https://www.vinerobots.org/) and folded pneumatic actuators (foldPAMs). He is particularly interested in using soft robotics to enhance the current understanding in human rehabilitation and wearable devices. In his free time, Eugenio enjoys playing soccer and learning about technology.
+Eugenio (“Henny”) is a PhD candidate in Mechanical Engineering at Purdue University from San Juan, Puerto Rico. He works in Laura Blumenschein’s [Robust and Adaptive Design Lab](https://lhblumen.wixsite.com/website-1). He was supported by the William E. and Florence E. Perry Teaching Fellowship, through which he lectured a Dynamics section of 109 students. He has received the Dr. Anil K. Bajaj Outstanding Service Scholarship for his service to Purdue’s mechanical engineering graduate student community. His broader work centers on integrating soft robots into everyday life by leveraging compliant human–robot interaction, combining human perception and decision-making with soft robotic models to enable new capabilities and emergent behaviors. At present, he studies how wearable kinesthetic force feedback devices influence human motor adaptation, with an emphasis on how force magnitude and feedback design shape learning in full-body tasks. Previously, he contributed to the development of a self-sensing, obstacle-interacting [vine robot](https://www.vinerobots.org/) and folded pneumatic artificial muscles. In his free time, Eugenio enjoys playing tennis, hiking, and learning about technology.
 {style="text-align: justify;"}

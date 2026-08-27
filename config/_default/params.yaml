@@ -42,7 +42,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Eugenio Frias Miranda.'
+    notice: '© {year} Eugenio (Henny) Frias-Miranda.'
     license:
       enable: false
       allow_derivatives: false
