@@ -25,12 +25,13 @@ body.dark,
   color: rgba(255, 255, 255, 0.78);
 }
 
-.dark .navbar-nav .nav-link {
-  color: #fff !important;
+body.dark .navbar-brand,
+body.dark .navbar-nav .nav-link {
+  color: #ceb888 !important;
 }
 
 body.dark .navbar-nav .nav-link.active {
-  color: #ceb888 !important;
+  color: #fff !important;
 }
 
 .theme-toggle-button {

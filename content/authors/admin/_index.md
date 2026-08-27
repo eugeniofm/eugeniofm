@@ -58,11 +58,6 @@ social:
     icon_pack: fas
     link: https://scholar.google.com/citations?user=K8pUCL4AAAAJ&hl=en&authuser=1
 
-    # github
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/eugeniofm
-
     # linkedin
   - icon: linkedin
     icon_pack: fab
