@@ -45,6 +45,19 @@ sections:
       css_class: gallery-timeline-entry
 
   - block: markdown
+    id: gallery-fall-2024
+    content:
+      title: Fall 2024
+      subtitle: ''
+      text: |-
+        I presented some of my wearable device work at BioRob 2024 in Heidelberg, Germany!
+
+        {{< gallery album="fall-2024-biorob" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-2022-05-2023-03
     content:
       title: Summer 2022 - Spring 2023
