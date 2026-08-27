@@ -20,3 +20,8 @@ name = "EugenioFM"
   primary = "#CEB888"
   link = "#CEB888"
   link_hover = "#CEB888"
+
+  # Dark surfaces
+  menu_primary = "#333333"
+  home_section_odd = "#333333"
+  home_section_even = "#333333"
