@@ -71,7 +71,7 @@ social:
     link: uploads/Eugenio_FriasMiranda_Resume_2page_SU26.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'efrias@purdue.edu'
+email: 'efrias at purdue dot edu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

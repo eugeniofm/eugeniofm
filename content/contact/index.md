@@ -9,7 +9,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      email: efrias@purdue.edu
+      email: efrias at purdue dot edu
       address:
         street: Purdue University
         city: West Lafayette
@@ -18,7 +18,7 @@ sections:
         country: United States
         country_code: US
       contact_links: []
-      autolink: true
+      autolink: false
     design:
       columns: '2'
 ---
