@@ -5,6 +5,7 @@
 
 title: Eugenio (Henny) Frias-Miranda # Website name
 baseURL: 'https://eugeniofm.netlify.app/' # Website URL
+timeZone: America/Indiana/Indianapolis
 
 ############################
 ## LANGUAGE
