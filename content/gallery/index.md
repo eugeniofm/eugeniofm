@@ -58,6 +58,19 @@ sections:
       css_class: gallery-timeline-entry
 
   - block: markdown
+    id: gallery-fall-2023
+    content:
+      title: Fall 2023
+      subtitle: ''
+      text: |-
+        I presented some of my work on Vine Robot Localization at IROS 2023 in Detroit, Michigan!
+
+        {{< gallery album="fall-2023-iros" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-2022-05-2023-03
     content:
       title: Summer 2022 - Spring 2023
