@@ -12,7 +12,7 @@ main:
   # #   url: '#posts'
   # #   weight: 20
 
-  - name: Projects
+  - name: Research
     url: '/projects/'
     weight: 30
 
