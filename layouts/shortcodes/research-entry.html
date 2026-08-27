@@ -6,7 +6,7 @@
 <article class="research-entry">
   <div class="research-entry__media">
     {{- if $image -}}
-      <img src="{{ $image | relURL }}" alt="{{ .Get "image_alt" }}" loading="lazy">
+      <img src="{{ $image | relURL }}" alt="{{ .Get "image_alt" }}">
     {{- else -}}
       <div class="research-entry__placeholder" role="img" aria-label="{{ .Get "placeholder" | default "Project figure forthcoming" }}">
         <span>{{ .Get "placeholder" | default "Project figure forthcoming" }}</span>
