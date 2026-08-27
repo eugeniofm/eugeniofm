@@ -9,11 +9,11 @@ name = "EugenioFM"
   menu_primary = "#CEB888"
   menu_text = "#1f2933"
   menu_text_active = "#fff"
-  menu_title = "#1f2933"
+  menu_title = "#fff"
 
   # Home sections
   home_section_odd = "rgb(255, 255, 255)"
-  home_section_even = "rgb(247, 247, 247)"
+  home_section_even = "rgb(255, 255, 255)"
 
 [dark]
   # Use gold for links and accents against the dark background.

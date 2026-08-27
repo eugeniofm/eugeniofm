@@ -46,6 +46,16 @@ h6 {
   font-size: 1rem;
 }
 
+body:not(.dark),
+body:not(.dark) .home-section,
+body:not(.dark) .page-footer {
+  background-color: #fff;
+}
+
+body:not(.dark) .navbar-brand {
+  color: #fff !important;
+}
+
 // Dark mode uses white for text and Purdue gold for interactive accents.
 body.dark,
 .dark .docs-toc-link,
@@ -260,7 +270,7 @@ body.dark #navbar-main .navbar-nav .nav-link.active {
 }
 
 .gallery-timeline-entry .col-12 > p {
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
 }
 
 .dark .gallery-timeline-entry .container::before,
@@ -290,6 +300,6 @@ body.dark #navbar-main .navbar-nav .nav-link.active {
   }
 
   .gallery-timeline-entry .col-12 > p {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
 }
