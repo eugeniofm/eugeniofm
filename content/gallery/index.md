@@ -6,19 +6,6 @@ type: landing
 sections:
   # Add newer gallery timeline sections above older sections.
   - block: markdown
-    id: gallery-fall-2025
-    content:
-      title: Fall 2025
-      subtitle: ''
-      text: |-
-        At the end of the fall semester, I passed my preliminary exam! I was very tired afterward... Also, my labmate Antonio graduated!
-
-        {{< gallery album="fall-2025-preliminary-exam" >}}
-    design:
-      columns: '1'
-      css_class: gallery-timeline-entry
-
-  - block: markdown
     id: gallery-spring-2026
     content:
       title: Spring 2026
@@ -27,6 +14,19 @@ sections:
         During the Spring 2026 semester, I taught a section of ME 274: Basic Mechanics II (Dynamics).
 
         {{< gallery album="spring-2026-teaching" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
+    id: gallery-fall-2025
+    content:
+      title: Fall 2025
+      subtitle: ''
+      text: |-
+        At the end of the fall semester, I passed my preliminary exam! I was very tired afterward... Also, my labmate Antonio graduated!
+
+        {{< gallery album="fall-2025-preliminary-exam" >}}
     design:
       columns: '1'
       css_class: gallery-timeline-entry
