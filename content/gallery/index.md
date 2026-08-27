@@ -50,7 +50,7 @@ sections:
       title: Fall 2024
       subtitle: ''
       text: |-
-        I presented some of my wearable device work at BioRob 2024 in Heidelberg, Germany!
+        I presented some of my wearable device work at BioRob 2024 in Heidelberg, Germany! This was my first research conference outside of the U.S., and traveling by myself gave me the chance to meet and interact with lots of people!
 
         {{< gallery album="fall-2024-biorob" >}}
     design:
