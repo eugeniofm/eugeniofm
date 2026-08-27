@@ -11,7 +11,7 @@ sections:
       title: Fall 2025
       subtitle: ''
       text: |-
-        At the end of the Fall 2025 semester, I passed my preliminary exam! I was very tired afterward...
+        At the end of the fall semester, I passed my preliminary exam! I was very tired afterward... Also, my labmate Antonio graduated!
 
         {{< gallery album="fall-2025-preliminary-exam" >}}
     design:
