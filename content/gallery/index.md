@@ -45,6 +45,19 @@ sections:
       css_class: gallery-timeline-entry
 
   - block: markdown
+    id: gallery-spring-2025
+    content:
+      title: Spring 2025
+      subtitle: ''
+      text: |-
+        I attended my first ICRA in Atlanta. I was a coauthor on an ICRA paper with my colleague Sicheng, and I presented a poster at a workshop!
+
+        {{< gallery album="spring-2025-icra" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-fall-2024
     content:
       title: Fall 2024
