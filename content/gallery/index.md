@@ -34,7 +34,7 @@ sections:
   - block: markdown
     id: gallery-2022-05-2023-03
     content:
-      title: May 2022 - March 2023
+      title: Summer 2022 - Spring 2023
       subtitle: ''
       text: |-
         A collection of photos from my first year of graduate school.
