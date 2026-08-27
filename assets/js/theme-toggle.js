@@ -42,3 +42,18 @@
   document.addEventListener('wcThemeChange', () => requestAnimationFrame(updateButton));
   updateButton();
 })();
+
+(() => {
+  const researchTargets = {
+    '/publication/biorob24/': '/projects/#adaptation-training-effects',
+    '/publication/localization/': '/projects/#vine-robot-localization',
+    '/publication/icra25/': '/projects/#inflated-rotational-joint',
+    '/publication/foldpam/': '/projects/#foldpam',
+  };
+
+  for (const [publicationPath, researchPath] of Object.entries(researchTargets)) {
+    document.querySelectorAll(`a[href="${publicationPath}"]`).forEach((link) => {
+      link.setAttribute('href', researchPath);
+    });
+  }
+})();
