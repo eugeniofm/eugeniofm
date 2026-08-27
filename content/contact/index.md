@@ -11,10 +11,10 @@ sections:
       subtitle:
       email: efrias at purdue dot edu
       address:
-        street: Purdue University
+        street: ME2046, School of Mechanical Engineering, Purdue University, 585 Purdue Mall
         city: West Lafayette
         region: IN
-        postcode: '47907'
+        postcode: '47907-2088'
         country: United States
         country_code: US
       contact_links: []
