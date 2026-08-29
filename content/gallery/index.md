@@ -71,6 +71,19 @@ sections:
       css_class: gallery-timeline-entry
 
   - block: markdown
+    id: gallery-summer-2024
+    content:
+      title: Summer 2024
+      subtitle: ''
+      text: |-
+        I presented some of my wearable resistance device work at Dynamic Walking 2024 in Pensacola, Florida!
+
+        {{< gallery album="summer-2024-dynamic-walking" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-spring-2024
     content:
       title: Spring 2024
