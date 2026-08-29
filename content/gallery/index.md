@@ -71,6 +71,19 @@ sections:
       css_class: gallery-timeline-entry
 
   - block: markdown
+    id: gallery-spring-2024
+    content:
+      title: Spring 2024
+      subtitle: ''
+      text: |-
+        I presented some of my wearable resistance device work at the 2024 Purdue ICON Student Research Conference!
+
+        {{< gallery album="spring-2024-icon" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-fall-2023
     content:
       title: Fall 2023
