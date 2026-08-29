@@ -44,6 +44,20 @@
 })();
 
 (() => {
+  if (window.location.pathname !== '/') {
+    return;
+  }
+
+  const homeLink = document.querySelector('#navbar-main .navbar-nav .nav-link[href="/"]');
+  if (!homeLink) {
+    return;
+  }
+
+  homeLink.classList.add('home-current');
+  homeLink.setAttribute('aria-current', 'page');
+})();
+
+(() => {
   const researchTargets = {
     '/publication/biorob24/': '/projects/#adaptation-training-effects',
     '/publication/localization/': '/projects/#vine-robot-localization',
