@@ -19,8 +19,8 @@ sections:
 
         My work investigates **compliant human-robot interaction** as a design principle for addressing these challenges, asking:
 
-        - **How can soft robots help humans?**
-        - **How can humans help soft robots?**
+        1. **How can soft robots help humans move better in everyday life?**
+        2. **How can human intuition help soft robots where models fall short?**
 
         Through my work, the central premise is that integrating **human perception, interpretation, and decision-making** with **soft robotic actuation** can produce capabilities and behaviors that neither agent achieves alone.
 
@@ -31,7 +31,7 @@ sections:
   - block: markdown
     id: soft-robots-help-humans
     content:
-      title: I. How can soft robots help humans?
+      title: I. How can soft robots help humans move better in everyday life?
       text: |-
         {{< research-entry
           id="force-magnitude-after-effects"
@@ -62,7 +62,7 @@ sections:
   - block: markdown
     id: humans-help-soft-robots
     content:
-      title: II. How can humans help soft robots?
+      title: II. How can human intuition help soft robots where models fall short?
       text: |-
         {{< research-entry
           id="current-work"
