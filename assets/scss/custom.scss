@@ -148,6 +148,11 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   font-weight: 700;
 }
 
+// Hide redundant DOI buttons without removing publication metadata.
+.btn-page-header[href^="https://doi.org/"] {
+  display: none;
+}
+
 .research-entry {
   display: grid;
   grid-template-columns: minmax(170px, 24%) minmax(0, 1fr);

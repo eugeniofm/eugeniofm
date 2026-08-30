@@ -5,7 +5,6 @@
 {{- $pdf := .Get "pdf" -}}
 {{- $cite := .Get "cite" -}}
 {{- $video := .Get "video" -}}
-{{- $doi := .Get "doi" -}}
 {{- $source := .Get "source" -}}
 {{- $sourceLabel := .Get "source_label" | default "Source" -}}
 {{- $highlightedCitation := replace $citation "Eugenio (Henny) Frias-Miranda" "<strong class=\"research-entry__author\">Eugenio (Henny) Frias-Miranda</strong>" -}}
@@ -26,12 +25,11 @@
       <p class="research-entry__citation"><em>{{ $highlightedCitation | safeHTML }}</em></p>
     {{- end }}
     <div class="research-entry__summary">{{ .Inner | markdownify }}</div>
-    {{- if or $pdf $cite $video $doi $source }}
+    {{- if or $pdf $cite $video $source }}
       <p class="research-entry__links">
         {{- with $pdf }}<a class="research-entry__link" href="{{ . }}">[PDF]</a>{{ end -}}
-        {{- with $cite }}<a class="research-entry__link" href="{{ . }}">[Cite]</a>{{ end -}}
+        {{- with $cite }}<a class="research-entry__link js-cite-modal" href="{{ . | relURL }}" data-filename="{{ . | relURL }}" aria-haspopup="dialog" aria-controls="modal">[Cite]</a>{{ end -}}
         {{- with $video }}<a class="research-entry__link" href="{{ . }}">[Video]</a>{{ end -}}
-        {{- with $doi }}<a class="research-entry__link" href="{{ . }}">[DOI]</a>{{ end -}}
         {{- with $source }}<a class="research-entry__link" href="{{ . }}">[{{ $sourceLabel }}]</a>{{ end -}}
       </p>
     {{- end }}

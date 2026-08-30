@@ -107,7 +107,6 @@ sections:
           pdf="/publication/localization/Vine_Robot_Localization_Via_Collision.pdf"
           cite="/publication/localization/cite.bib"
           video="https://www.youtube.com/watch?v=dF74yGpmTJo"
-          doi="https://doi.org/10.1109/IROS55552.2023.10342238"
           source="https://ieeexplore.ieee.org/document/10342238"
           source_label="IEEE Xplore"
         >}}
