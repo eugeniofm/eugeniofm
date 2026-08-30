@@ -6,6 +6,19 @@ type: landing
 sections:
   # Add newer gallery timeline sections above older sections.
   - block: markdown
+    id: gallery-summer-2026
+    content:
+      title: Summer 2026
+      subtitle: ''
+      text: |-
+        A few moments from the lab with Javi, Laura, and Derek, highlighting some of the projects I worked on over the summer.
+
+        {{< gallery album="summer-2026-lab" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-spring-2026
     content:
       title: Spring 2026
