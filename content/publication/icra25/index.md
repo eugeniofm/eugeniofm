@@ -17,8 +17,8 @@ abstract: >-
 tags: [soft robotics, anisotropic stiffness, inflated rotational joint]
 featured: true
 links:
-  - name: arXiv
-    url: https://arxiv.org/abs/2410.13003
+  - name: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11127236
 url_pdf: '/publication/icra25/Inflatable_Joint_ICRA_25.pdf'
 url_video: 'https://www.youtube.com/watch?v=iuEmJd3ms2o'
 image:

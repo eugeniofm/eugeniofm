@@ -92,8 +92,8 @@ sections:
           pdf="/publication/icra25/Inflatable_Joint_ICRA_25.pdf"
           cite="/publication/icra25/cite.bib"
           video="https://www.youtube.com/watch?v=iuEmJd3ms2o"
-          source="https://arxiv.org/abs/2410.13003"
-          source_label="arXiv"
+          source="https://ieeexplore.ieee.org/document/11127236"
+          source_label="IEEE Xplore"
         >}}
         Soft robots are known for their ability to perform tasks with great adaptability, enabled by their distributed, non-uniform stiffness and actuation. Bending is the most fundamental motion for soft robot design, but creating robust, and easy-to-fabricate soft bending joint with tunable properties remains an active problem of research. In this work, we demonstrate an inflatable actuation module for soft robots with a defined bending plane enabled by forced partial wrinkling. This lowers the structural stiffness in the bending direction, with the final stiffness easily designed by the ratio of wrinkled and unwrinkled regions. We show the stiffness properties of the actuation module through a first-principle model validated by experimental characterization, and demonstrate the module's ability to maintain the kinematic constraint over a large range of loading conditions. We illustrate how these properties give the potential for complex actuation in a soft continuum robot and for decoupling actuation force and efficiency from load capacity. The module provides a novel method for embedding intelligent actuation into soft pneumatic robots.
         {{< /research-entry >}}
@@ -123,8 +123,8 @@ sections:
           pdf="/publication/foldpam/foldPAM.pdf"
           cite="/publication/foldpam/cite.bib"
           video="https://www.youtube.com/watch?v=hv5dG_mDWRI"
-          source="https://arxiv.org/abs/2209.01315"
-          source_label="arXiv"
+          source="https://ieeexplore.ieee.org/document/10021617"
+          source_label="IEEE Xplore"
         >}}
         Soft pneumatic actuators have seen applications in many soft robotic systems, and their pressure-driven nature presents unique challenges and opportunities for controlling their motion. In this work, we present a new concept: designing and controlling pneumatic actuators via end geometry. We demonstrate a novel actuator class, named the folded Pneumatic Artificial Muscle (foldPAM), which features a thin-filmed air pouch that is symmetrically folded on each side. Varying the folded portion of the actuator changes the end constraints and, hence, the force-strain relationships. We investigated this change experimentally by measuring the force-strain relationship of individual foldPAM units with various lengths and amounts of folding. In addition to static-geometry units, an actuated foldPAM device was designed to produce continuous, on-demand adjustment of the end geometry, enabling closed-loop position control while maintaining constant pressure. Experiments with the device indicate that geometry control allows access to different areas on the force-strain plane and that closed-loop geometry control can achieve errors within 0.5% of the actuation range.
         {{< /research-entry >}}

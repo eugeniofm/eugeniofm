@@ -16,8 +16,8 @@ abstract: >-
 tags: [soft robotics, pneumatic artificial muscles, actuation]
 featured: true
 links:
-  - name: arXiv
-    url: https://arxiv.org/abs/2209.01315
+  - name: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/10021617
 url_pdf: '/publication/foldpam/foldPAM.pdf'
 url_video: 'https://www.youtube.com/watch?v=hv5dG_mDWRI'
 image:
