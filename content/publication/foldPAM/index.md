@@ -19,6 +19,7 @@ links:
   - name: arXiv
     url: https://arxiv.org/abs/2209.01315
 url_pdf: '/publication/foldpam/foldPAM.pdf'
+url_video: 'https://www.youtube.com/watch?v=hv5dG_mDWRI'
 image:
   caption: 'The folded Pneumatic Artificial Muscle (foldPAM).'
   focal_point: ''

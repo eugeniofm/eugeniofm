@@ -20,6 +20,7 @@ links:
   - name: arXiv
     url: https://arxiv.org/abs/2410.13003
 url_pdf: '/publication/icra25/Inflatable_Joint_ICRA_25.pdf'
+url_video: 'https://www.youtube.com/watch?v=iuEmJd3ms2o'
 image:
   caption: 'Inflated rotational joint for programmable soft robot actuation.'
   focal_point: ''

@@ -33,6 +33,8 @@ sections:
     content:
       title: I. How can soft robots help humans move better in everyday life?
       text: |-
+        I investigate how physical interaction with compliant wearable devices can support motor learning and help people develop lasting improvements in how they move.
+
         {{< research-entry
           id="force-magnitude-after-effects"
           title="Role of Kinesthetic Force Magnitude in Motor Learning After-Effects"
@@ -64,6 +66,8 @@ sections:
     content:
       title: II. How can human intuition help soft robots where models fall short?
       text: |-
+        I explore how human perception, intuition, and decision-making can help soft robots navigate uncertainty and perform tasks that are challenging for modeling and control alone.
+
         {{< research-entry
           id="current-work"
           title="Current Work"
@@ -87,6 +91,7 @@ sections:
           citation="Sicheng Wang, Eugenio Frias-Miranda, Antonio Alvarez Valdivia, Laura H. Blumenschein, 2025 IEEE International Conference on Robotics and Automation (ICRA), 2025"
           pdf="/publication/icra25/Inflatable_Joint_ICRA_25.pdf"
           cite="/publication/icra25/cite.bib"
+          video="https://www.youtube.com/watch?v=iuEmJd3ms2o"
           source="https://arxiv.org/abs/2410.13003"
           source_label="arXiv"
         >}}
@@ -117,6 +122,7 @@ sections:
           citation="Sicheng Wang, Eugenio Frias-Miranda, Laura H. Blumenschein, IEEE Robotics and Automation Letters, 8(3), 1383-1390, 2023"
           pdf="/publication/foldpam/foldPAM.pdf"
           cite="/publication/foldpam/cite.bib"
+          video="https://www.youtube.com/watch?v=hv5dG_mDWRI"
           source="https://arxiv.org/abs/2209.01315"
           source_label="arXiv"
         >}}
