@@ -11,7 +11,7 @@ sections:
       title: Summer 2026
       subtitle: ''
       text: |-
-        A few moments from the lab with Javi, Laura, and Derek, highlighting some of the projects I worked on over the summer.
+        A few moments from the lab with Javi, Laura, and Derek, highlighting one of the projects I worked on over the summer.
 
         {{< gallery album="summer-2026-lab" >}}
     design:
