@@ -38,8 +38,8 @@ sections:
         {{< research-entry
           id="force-magnitude-after-effects"
           title="Role of Kinesthetic Force Magnitude in Motor Learning After-Effects"
-          citation="[Submitted]"
-          placeholder="[In Preparation]"
+          citation="[In review]"
+          placeholder="[In review]"
         >}}
         {{< /research-entry >}}
 
