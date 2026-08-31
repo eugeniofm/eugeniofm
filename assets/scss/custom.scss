@@ -299,13 +299,13 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   margin-bottom: 7rem;
 }
 
-.gallery-timeline-entry .gallery-grid:has(> .gallery-item:nth-child(4):last-child) {
+.gallery-timeline-entry .gallery-grid {
   padding-top: 2rem;
 
   // Keep portrait images inside their tiles instead of painting over the text.
   > .gallery-item {
     overflow: hidden;
-    background: transparent;
+    background: #000;
 
     > a {
       display: block;
