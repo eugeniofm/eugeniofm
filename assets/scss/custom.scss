@@ -40,7 +40,7 @@ h6 {
 }
 
 #about .avatar-wrapper {
-  width: 210px;
+  width: 262.5px;
   max-width: 100%;
   height: auto;
 }
@@ -50,6 +50,17 @@ h6 {
   height: auto;
   border-radius: 8px;
   object-fit: contain;
+}
+
+#about .portrait-family-name {
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  #about .portrait-given-name,
+  #about .portrait-family-name {
+    display: block;
+  }
 }
 
 .article-style,
