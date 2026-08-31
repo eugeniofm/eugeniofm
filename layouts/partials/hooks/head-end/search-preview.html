@@ -1,0 +1,18 @@
+{{ if .IsHome }}
+  <meta name="robots" content="max-image-preview:large">
+  {{ $image := dict
+    "@type" "ImageObject"
+    "url" ("icons/icon-512x512.png?v=portrait" | absURL)
+    "width" 512
+    "height" 512
+    "caption" (printf "Illustrated portrait of %s" site.Title)
+  }}
+  {{ $page := dict
+    "@context" "https://schema.org"
+    "@type" "WebPage"
+    "url" .Permalink
+    "name" site.Title
+    "primaryImageOfPage" $image
+  }}
+  <script type="application/ld+json">{{ $page | jsonify | safeJS }}</script>
+{{ end }}
