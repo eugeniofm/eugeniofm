@@ -47,7 +47,9 @@ h6 {
 
 #about .avatar {
   width: 100%;
+  max-width: 100%;
   height: auto;
+  max-height: none;
   border-radius: 8px;
   object-fit: contain;
 }
