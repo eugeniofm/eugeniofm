@@ -299,6 +299,30 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   margin-bottom: 7rem;
 }
 
+.gallery-timeline-entry .gallery-grid:has(> .gallery-item:nth-child(4):last-child) {
+  padding-top: 2rem;
+
+  // Keep portrait images inside their tiles instead of painting over the text.
+  > .gallery-item {
+    overflow: hidden;
+    background: transparent;
+
+    > a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    img {
+      display: block;
+      position: static;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   // Keep four-photo collections balanced without changing other album sizes.
   .gallery-timeline-entry .gallery-grid:has(> .gallery-item:nth-child(4):last-child) {
