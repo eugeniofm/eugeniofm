@@ -6,6 +6,19 @@ type: landing
 sections:
   # Add newer gallery timeline sections above older sections.
   - block: markdown
+    id: gallery-fall-2026
+    content:
+      title: Fall 2026
+      subtitle: ''
+      text: |-
+        At the end of August and beginning of September, I had the opportunity to attend the **[2026 NextProf Nexus](https://nextprof.engin.umich.edu/nextprof-nexus/)** future faculty workshop.
+
+        {{< gallery album="fall-2026-nextprof-nexus" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
     id: gallery-summer-2026
     content:
       title: Summer 2026
