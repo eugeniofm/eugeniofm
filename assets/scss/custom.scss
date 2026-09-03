@@ -349,6 +349,24 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   }
 }
 
+// Let a single photo keep its natural proportions without spanning the full row.
+.gallery-timeline-entry .gallery-grid:has(> .gallery-item:only-child) {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  margin-right: auto;
+  margin-left: auto;
+
+  > .gallery-item,
+  > .gallery-item > a {
+    height: auto;
+  }
+
+  > .gallery-item img {
+    height: auto;
+  }
+}
+
 @media (min-width: 768px) {
   // Keep four-photo collections balanced without changing other album sizes.
   .gallery-timeline-entry .gallery-grid:has(> .gallery-item:nth-child(4):last-child) {
