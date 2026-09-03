@@ -11,7 +11,7 @@ sections:
       title: Fall 2026
       subtitle: ''
       text: |-
-        At the end of August and beginning of September, I had the opportunity to attend the **[2026 NextProf Nexus](https://nextprof.engin.umich.edu/nextprof-nexus/)** future faculty workshop at Georgia Tech.
+        I had the opportunity to attend the **[2026 NextProf Nexus](https://nextprof.engin.umich.edu/nextprof-nexus/)** future faculty workshop at Georgia Tech, held August 31 – September 3, 2026.
 
         {{< gallery album="fall-2026-nextprof-nexus" >}}
     design:
