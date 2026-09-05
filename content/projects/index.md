@@ -15,16 +15,19 @@ sections:
       text: |-
         <img class="research-overview-graphic" src="/images/research/research-overview.png" alt="Diagram showing the two-way relationship between humans and soft robots">
 
+        ### Motivation
+
         Soft robots leverage **compliance, flexibility, and deformation** to operate safely in close proximity to people and to function in constrained, uncertain environments. However, the same compliance that enables safe physical interaction also creates major challenges for **modeling, sensing, and control**, especially for continuum robots whose high-dimensional shape changes and nonlinear dynamics are difficult to predict reliably.
 
-        My work investigates **compliant human-robot interaction** as a design principle for addressing these challenges, asking:
+        ### Research Vision
 
-        1. **How can soft robots help humans move better in everyday life?**
-        2. **How can human intuition help soft robots where models fall short?**
+        My work investigates **human–soft robot interaction** with the goal of closing the loop between two reciprocal directions: **humans helping soft robots** and **soft robots helping humans**.
 
-        Through my work, the central premise is that integrating **human perception, interpretation, and decision-making** with **soft robotic actuation** can produce capabilities and behaviors that neither agent achieves alone.
+        The central premise of my work is that integrating human **(1) perception**, **(2) interpretation**, and **(3) decision-making** with **soft-robot models** can create a synergy in which both agents complement one another.
 
-        Below is a list of projects that I have worked on throughout my PhD. Feel free to look through them!
+        This integration can enable soft robots to safely assist and learn with people in their everyday tasks.
+
+        Below is a list of projects that I have worked on. Feel free to look through them!
     design:
       columns: '1'
 
