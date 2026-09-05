@@ -58,6 +58,61 @@
 })();
 
 (() => {
+  const navbar = document.querySelector('#navbar-main');
+  const toggler = navbar?.querySelector('.navbar-toggler');
+  const menu = navbar?.querySelector('#navbar-content');
+  const icon = toggler?.querySelector('i');
+
+  if (!navbar || !toggler || !menu) {
+    return;
+  }
+
+  const backdrop = document.createElement('div');
+  backdrop.className = 'mobile-nav-backdrop';
+  backdrop.hidden = true;
+  backdrop.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(backdrop);
+
+  const updateTopOffset = () => {
+    const navbarBottom = Math.max(0, navbar.getBoundingClientRect().bottom);
+    document.documentElement.style.setProperty('--mobile-nav-top', `${navbarBottom}px`);
+  };
+
+  const closeMenu = () => {
+    if (toggler.getAttribute('aria-expanded') === 'true') {
+      toggler.click();
+    }
+  };
+
+  const syncMenuState = () => {
+    const isOpen = toggler.getAttribute('aria-expanded') === 'true';
+    document.body.classList.toggle('mobile-nav-open', isOpen);
+    backdrop.hidden = !isOpen;
+    toggler.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Toggle navigation');
+    icon?.classList.toggle('fa-bars', !isOpen);
+    icon?.classList.toggle('fa-times', isOpen);
+  };
+
+  new MutationObserver(syncMenuState).observe(toggler, {
+    attributes: true,
+    attributeFilter: ['aria-expanded'],
+  });
+
+  backdrop.addEventListener('click', closeMenu);
+  menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeMenu();
+    }
+  });
+  window.addEventListener('resize', updateTopOffset);
+  window.addEventListener('orientationchange', updateTopOffset);
+
+  updateTopOffset();
+  syncMenuState();
+})();
+
+(() => {
   const researchTargets = {
     '/publication/biorob24/': '/projects/#adaptation-training-effects',
     '/publication/localization/': '/projects/#vine-robot-localization',
