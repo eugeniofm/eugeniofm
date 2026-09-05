@@ -3,10 +3,10 @@ name = "EugenioFM"
 
 [light]
   # Primary
-  primary = "#CEB888"
+  primary = "#AF9C73"
 
   # Menu
-  menu_primary = "#CEB888"
+  menu_primary = "#AF9C73"
   menu_text = "#1f2933"
   menu_text_active = "#fff"
   menu_title = "#fff"
@@ -17,9 +17,9 @@ name = "EugenioFM"
 
 [dark]
   # Use gold for links and accents against the dark background.
-  primary = "#CEB888"
-  link = "#CEB888"
-  link_hover = "#CEB888"
+  primary = "#AF9C73"
+  link = "#AF9C73"
+  link_hover = "#AF9C73"
 
   # Dark surfaces
   menu_primary = "#333333"
