@@ -192,6 +192,123 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   cursor: pointer;
 }
 
+// Use a compact off-canvas drawer for navigation below the desktop breakpoint.
+@media (max-width: 991.98px) {
+  body.mobile-nav-open {
+    overflow: hidden;
+  }
+
+  #navbar-main {
+    z-index: 1050;
+  }
+
+  #navbar-main .navbar-toggler,
+  #navbar-main .navbar-brand-mobile-wrapper,
+  #navbar-main .nav-icons {
+    position: relative;
+    z-index: 1052;
+  }
+
+  #navbar-main .navbar-toggler {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+  }
+
+  #navbar-content {
+    position: fixed;
+    z-index: 1051;
+    top: var(--mobile-nav-top, 64px);
+    bottom: 0;
+    left: 0;
+    display: block !important;
+    width: min(78vw, 300px);
+    height: auto !important;
+    padding: 0.75rem 1rem 1.25rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background: #af9c73;
+    box-shadow: 12px 0 30px rgba(0, 0, 0, 0.2);
+    transform: translateX(-105%);
+    transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1), visibility 240ms;
+    pointer-events: none;
+  }
+
+  #navbar-content.show,
+  #navbar-content.collapsing {
+    visibility: visible;
+    transform: translateX(0);
+    pointer-events: auto;
+  }
+
+  #navbar-content .navbar-nav {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  #navbar-content .nav-item {
+    width: 100%;
+    margin: 0;
+  }
+
+  #navbar-content .nav-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 46px;
+    padding: 0.65rem 0.85rem !important;
+    border-radius: 6px;
+  }
+
+  body:not(.dark) #navbar-content .nav-link {
+    color: #242424 !important;
+  }
+
+  body:not(.dark) #navbar-content .nav-link.active,
+  body:not(.dark) #navbar-content .nav-link.home-current {
+    color: #fff !important;
+    background: rgba(255, 255, 255, 0.14);
+  }
+
+  body.dark #navbar-content {
+    background: #333333;
+    box-shadow: 12px 0 30px rgba(0, 0, 0, 0.38);
+  }
+
+  body.dark #navbar-content .nav-link.active,
+  body.dark #navbar-content .nav-link.home-current {
+    background: rgba(175, 156, 115, 0.12);
+  }
+
+  .mobile-nav-backdrop {
+    position: fixed;
+    z-index: 1049;
+    top: var(--mobile-nav-top, 64px);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.42);
+    opacity: 1;
+    transition: opacity 200ms ease;
+  }
+
+  .mobile-nav-backdrop[hidden] {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
+  #navbar-content,
+  .mobile-nav-backdrop {
+    transition: none;
+  }
+}
+
 // Research page entries pair each project figure with its complete paper record.
 #research-overview,
 #soft-robots-help-humans,
