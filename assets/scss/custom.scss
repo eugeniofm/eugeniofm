@@ -245,6 +245,7 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   #navbar-content .navbar-nav {
     display: flex !important;
     flex-direction: column;
+    gap: 0.25rem;
     width: 100%;
     margin: 0;
   }
@@ -252,6 +253,7 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   #navbar-content .nav-item {
     width: 100%;
     margin: 0;
+    padding: 0 !important;
   }
 
   #navbar-content .nav-link {
