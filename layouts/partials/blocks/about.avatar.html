@@ -1,3 +1,4 @@
+/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 27: /bin/ps: Operation not permitted
 {{/* Wowchemy Blocks: About - avatar variation */}}
 {{/* Documentation: https://wowchemy.com/blocks/ */}}
 {{/* License: https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/LICENSE.md */}}
@@ -20,15 +21,21 @@
 {{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $hover_avatar := ($person_page.Resources.ByType "image").GetMatch "profile-hover*" }}
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <div id="profile">
 
   {{ if $avatar }}
-  <div class="avatar-wrapper">
+  <div class="avatar-wrapper{{ if $hover_avatar }} avatar-swap{{ end }}"{{ if $hover_avatar }} tabindex="0"{{ end }}>
     {{ $avatar_image := $avatar.Resize "525x" }}
-    <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
+    <img class="avatar avatar-primary {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
          width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
+    {{ if $hover_avatar }}
+      {{ $hover_image := $hover_avatar.Fill "525x525 Center" }}
+      <img class="avatar avatar-hover" src="{{ $hover_image.RelPermalink }}" alt="" aria-hidden="true"
+           width="{{ $hover_image.Width }}" height="{{ $hover_image.Height }}">
+    {{ end }}
     {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
   </div>
   {{ end }}

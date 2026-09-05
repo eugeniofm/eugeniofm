@@ -1,3 +1,4 @@
+/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 27: /bin/ps: Operation not permitted
 // Keep the site compact and readable across every page.
 html {
   font-size: 14px;
@@ -46,12 +47,63 @@ h6 {
 }
 
 #about .avatar {
+  display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
   max-height: none;
   border-radius: 8px;
   object-fit: contain;
+}
+
+#about .avatar-swap {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#about .avatar-swap .avatar {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 320ms ease, transform 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+#about .avatar-swap .avatar-primary {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#about .avatar-swap .avatar-hover {
+  opacity: 0;
+  transform: scale(1.06) rotate(0.6deg);
+}
+
+#about .avatar-swap:hover .avatar-primary,
+#about .avatar-swap:focus-visible .avatar-primary {
+  opacity: 0;
+  transform: scale(0.96);
+}
+
+#about .avatar-swap:hover .avatar-hover,
+#about .avatar-swap:focus-visible .avatar-hover {
+  opacity: 1;
+  transform: scale(1) rotate(0);
+}
+
+#about .avatar-swap:focus-visible {
+  outline: 3px solid #af9c73;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #about .avatar-swap .avatar {
+    transition: opacity 1ms linear;
+    transform: none;
+  }
 }
 
 #about .portrait-family-name {
