@@ -25,7 +25,7 @@ sections:
 
         The central premise of my work is that integrating human **(1) perception**, **(2) interpretation**, and **(3) decision-making** with **soft-robot models** can create a synergy in which both agents complement one another.
 
-        This integration can enable soft robots to safely assist and learn with people in their everyday tasks.
+        This synergy can enable soft robots to safely assist and learn with people in their everyday tasks.
 
         Below is a list of projects that I have worked on. Feel free to look through them!
     design:
