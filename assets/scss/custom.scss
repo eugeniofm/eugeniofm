@@ -254,7 +254,7 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
     margin: 0;
   }
 
-  #navbar-main #navbar-content .navbar-nav > .nav-item {
+  body.page-wrapper #navbar-content ul.navbar-nav > li.nav-item {
     width: 100%;
     margin: 0;
     padding-top: 0 !important;
