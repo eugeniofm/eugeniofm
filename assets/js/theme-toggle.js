@@ -73,9 +73,10 @@
   backdrop.setAttribute('aria-hidden', 'true');
   document.body.appendChild(backdrop);
 
-  const updateTopOffset = () => {
+  const updateDrawerGeometry = () => {
     const navbarBottom = Math.max(0, navbar.getBoundingClientRect().bottom);
     document.documentElement.style.setProperty('--mobile-nav-top', `${navbarBottom}px`);
+    document.documentElement.style.setProperty('--mobile-nav-width', `${menu.getBoundingClientRect().width}px`);
   };
 
   const closeMenu = () => {
@@ -105,10 +106,10 @@
       closeMenu();
     }
   });
-  window.addEventListener('resize', updateTopOffset);
-  window.addEventListener('orientationchange', updateTopOffset);
+  window.addEventListener('resize', updateDrawerGeometry);
+  window.addEventListener('orientationchange', updateDrawerGeometry);
 
-  updateTopOffset();
+  updateDrawerGeometry();
   syncMenuState();
 })();
 
