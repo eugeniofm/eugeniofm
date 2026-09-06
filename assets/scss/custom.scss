@@ -333,6 +333,16 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
   color: #af9c73 !important;
 }
 
+#research-overview,
+#soft-robots-help-humans,
+#humans-help-soft-robots,
+#other-projects {
+  strong,
+  b {
+    color: #af9c73;
+  }
+}
+
 .research-overview-graphic {
   display: block;
   width: 100%;
