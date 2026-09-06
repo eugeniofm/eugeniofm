@@ -198,6 +198,11 @@ body.dark #navbar-main .navbar-nav .nav-link.home-current {
     overflow: hidden;
   }
 
+  body > header {
+    position: relative;
+    z-index: 1050;
+  }
+
   #navbar-main {
     z-index: 1050;
   }
