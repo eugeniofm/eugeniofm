@@ -67,6 +67,10 @@
     return;
   }
 
+  const menuParent = menu.parentElement;
+  const menuNextSibling = menu.nextSibling;
+  const mobileBreakpoint = window.matchMedia('(max-width: 991.98px)');
+
   const backdrop = document.createElement('div');
   backdrop.className = 'mobile-nav-backdrop';
   backdrop.hidden = true;
@@ -77,6 +81,16 @@
     const navbarBottom = Math.max(0, navbar.getBoundingClientRect().bottom);
     document.documentElement.style.setProperty('--mobile-nav-top', `${navbarBottom}px`);
     document.documentElement.style.setProperty('--mobile-nav-width', `${menu.getBoundingClientRect().width}px`);
+  };
+
+  const placeMenu = () => {
+    if (mobileBreakpoint.matches && menu.parentElement !== document.body) {
+      document.body.appendChild(menu);
+    } else if (!mobileBreakpoint.matches && menu.parentElement !== menuParent) {
+      menuParent.insertBefore(menu, menuNextSibling);
+    }
+
+    updateDrawerGeometry();
   };
 
   const closeMenu = () => {
@@ -106,10 +120,16 @@
       closeMenu();
     }
   });
-  window.addEventListener('resize', updateDrawerGeometry);
-  window.addEventListener('orientationchange', updateDrawerGeometry);
+  window.addEventListener('resize', placeMenu);
+  window.addEventListener('orientationchange', placeMenu);
+  mobileBreakpoint.addEventListener('change', () => {
+    if (!mobileBreakpoint.matches) {
+      closeMenu();
+    }
+    placeMenu();
+  });
 
-  updateDrawerGeometry();
+  placeMenu();
   syncMenuState();
 })();
 
