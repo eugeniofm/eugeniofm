@@ -1,6 +1,7 @@
 ---
 title: Gallery
 date: 2024-12-16
+lastmod: 2026-09-09
 type: landing
 
 sections:
