@@ -41,7 +41,7 @@ sections:
         {{< research-entry
           id="force-magnitude-after-effects"
           title="Role of Kinesthetic Force Magnitude in Motor Learning After-Effects"
-          citation="[In review]"
+          citation="Eugenio Frias-Miranda, Mackenzie M. Matthews, Mackenzie R. Misterka, Deva D. Chan, and Laura H. Blumenschein, [In review]."
           placeholder="[In review]"
         >}}
         {{< /research-entry >}}
