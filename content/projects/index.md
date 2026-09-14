@@ -74,7 +74,7 @@ sections:
         {{< research-entry
           id="current-work"
           title="Soft Assumptions: Effect of Motion Scaling on Teleoperation of Soft Continuum Robots in Target-Reaching Tasks"
-          citation="E. Frias-Miranda*, A. de la Torre*, D. Yu, and L. H. Blumenschein, [Submitted]."
+          citation="Eugenio Frias-Miranda*, Alejandra de la Torre*, Denny Yu, and Laura H. Blumenschein, [Submitted]."
           placeholder="[Submitted]"
         >}}
         {{< /research-entry >}}
