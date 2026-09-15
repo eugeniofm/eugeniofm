@@ -17,7 +17,7 @@ sections:
 
         ### Motivation
 
-        Soft robots leverage **compliance, flexibility, and deformation** to interact safely with people and assist them in everyday tasks. However, translating these capabilities into reliable assistance requires overcoming challenges in **modeling, sensing, and control**, especially for continuum robots whose complex shape changes and nonlinear dynamics make it difficult to predict their behavior and respond to human needs.
+        Soft robots leverage **compliance, flexibility, and deformation**, offering the potential for safe interaction with people and assistance in everyday tasks. However, translating these capabilities into reliable assistance requires overcoming challenges in **modeling, sensing, and control**, especially for continuum robots whose complex shape changes and nonlinear dynamics make it difficult to predict their behavior and respond to human needs.
 
         ### Research Vision
 
