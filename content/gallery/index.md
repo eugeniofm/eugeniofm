@@ -1,7 +1,7 @@
 ---
 title: Gallery
 date: 2024-12-16
-lastmod: 2026-09-09
+lastmod: 2026-09-25
 type: landing
 
 sections:
@@ -15,6 +15,19 @@ sections:
         I had the opportunity to attend the **[2026 NextProf Nexus](https://nextprof.engin.umich.edu/nextprof-nexus/)** future faculty workshop at Georgia Tech, held August 31 – September 3, 2026!
 
         {{< gallery album="fall-2026-nextprof-nexus" >}}
+    design:
+      columns: '1'
+      css_class: gallery-timeline-entry
+
+  - block: markdown
+    id: gallery-fall-2026-rising-stars
+    content:
+      title: Fall 2026
+      subtitle: ''
+      text: |-
+        I had the opportunity to attend the **[2026 Rising Stars in Mechanical Engineering](https://risingstarsme.stanford.edu/)** Workshop at Stanford University, held September 24-25, 2026!
+
+        {{< gallery album="fall-2026-rising-stars" >}}
     design:
       columns: '1'
       css_class: gallery-timeline-entry
