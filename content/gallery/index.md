@@ -12,7 +12,7 @@ sections:
       title: Fall 2026
       subtitle: ''
       text: |-
-        I attended **IROS 2026 in Pittsburgh!** It was wonderful to reconnect with old friends and meet new people. I also presented a late-breaking results poster and helped organize one of the activities in the **[Soft Robot Manufacturing and Testing Hackathon](https://sites.google.com/umass.edu/softroboticsreproducibility/iros-2026?authuser=0)**.
+        I attended **IROS 2026 in Pittsburgh!** It was wonderful to reconnect with old friends and meet new people. I also presented a late-breaking results poster and helped organize one of the workshop activities in the **[Soft Robot Manufacturing and Testing Hackathon](https://sites.google.com/umass.edu/softroboticsreproducibility/iros-2026?authuser=0)**.
 
         {{< gallery album="fall-2026-iros" >}}
 
