@@ -12,7 +12,7 @@ sections:
       title: Fall 2026
       subtitle: ''
       text: |-
-        I had the opportunity to attend the **2026 Society of Engineering Science Conference** at Purdue, held October 11-14, 2026! I got to present some of Derek and my work from the last spring semester.
+        I had the opportunity to attend the **[2026 Society of Engineering Science Conference](https://engineering.purdue.edu/ME/News/2026/society-of-engineering-science-conference-returns-to-purdue-in-october-2026)** at Purdue, held October 11-14, 2026! I got to present some of Derek and my work from the last spring semester.
 
         {{< gallery album="fall-2026-ses" >}}
 
