@@ -5,7 +5,7 @@ authors:
   - admin
   - Antonio Alvarez Valdivia
   - Laura H. Blumenschein
-external_link: '/projects/#inflated-rotational-joint'
+external_link: '/research/#inflated-rotational-joint'
 date: '2025-01-01'
 doi: ''
 publishDate: ''

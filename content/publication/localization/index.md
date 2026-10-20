@@ -5,7 +5,7 @@ authors:
   - Alankriti Srivastava
   - Sicheng Wang
   - Laura H. Blumenschein
-external_link: '/projects/#vine-robot-localization'
+external_link: '/research/#vine-robot-localization'
 date: '2023-10-01'
 doi: '10.1109/IROS55552.2023.10342238'
 publishDate: ''

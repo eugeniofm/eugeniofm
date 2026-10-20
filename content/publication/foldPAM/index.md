@@ -4,7 +4,7 @@ authors:
   - Sicheng Wang
   - admin
   - Laura H. Blumenschein
-external_link: '/projects/#foldpam'
+external_link: '/research/#foldpam'
 date: '2023-03-01'
 doi: ''
 publishDate: ''

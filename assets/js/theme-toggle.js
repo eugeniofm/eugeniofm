@@ -135,10 +135,10 @@
 
 (() => {
   const researchTargets = {
-    '/publication/biorob24/': '/projects/#adaptation-training-effects',
-    '/publication/localization/': '/projects/#vine-robot-localization',
-    '/publication/icra25/': '/projects/#inflated-rotational-joint',
-    '/publication/foldpam/': '/projects/#foldpam',
+    '/publication/biorob24/': '/research/#adaptation-training-effects',
+    '/publication/localization/': '/research/#vine-robot-localization',
+    '/publication/icra25/': '/research/#inflated-rotational-joint',
+    '/publication/foldpam/': '/research/#foldpam',
   };
 
   for (const [publicationPath, researchPath] of Object.entries(researchTargets)) {

@@ -9,7 +9,7 @@ authors:
   - Matthew Cochran
   - Deva D. Chan
   - Laura H. Blumenschein
-external_link: '/projects/#adaptation-training-effects'
+external_link: '/research/#adaptation-training-effects'
 date: '2024-04-21'
 doi: ''
 publishDate: ''
